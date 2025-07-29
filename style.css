@@ -22,9 +22,8 @@ nav ul li a {
   color: #0f0;
   text-decoration: none;
 }
-.intro {
+main {
   padding: 2em;
-  text-align: center;
 }
 footer {
   background: #000;
