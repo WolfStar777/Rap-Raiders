@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   margin: 0;
   padding: 0;
-  background: #111;
-  color: #fff;
+  background: #000;
+  color: #FFD700;
 }
 header {
-  background: #000;
+  background: #111;
   padding: 1em;
   text-align: center;
+  border-bottom: 2px solid #FFD700;
 }
 nav ul {
   list-style: none;
@@ -19,17 +22,46 @@ nav ul li {
   margin: 0 1em;
 }
 nav ul li a {
-  color: #0f0;
+  color: #FF0000;
   text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #FFD700;
 }
 main {
   padding: 2em;
+  text-align: center;
+}
+.hero {
+  background: linear-gradient(to right, #111, #222);
+  padding: 4em 2em;
+  color: #FFD700;
+  border-bottom: 2px solid #FF0000;
+}
+.hero h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+.hero p {
+  font-size: 1.2em;
+}
+button {
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  padding: 0.75em 1.5em;
+  margin-top: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #FFD700;
+  color: #000;
 }
 footer {
-  background: #000;
+  background: #111;
   text-align: center;
   padding: 1em;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  border-top: 2px solid #FFD700;
 }
