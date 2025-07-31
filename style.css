@@ -1,39 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-body {
-  font-family: 'Bebas Neue', sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #000;
-  color: #FFD700;
-}
-header {
+body { font-family: 'Bebas Neue', sans-serif; margin: 0; padding: 0; background: #000; color: #FFD700; }
+header { background: #111; padding: 1em; text-align: center; border-bottom: 2px solid #FFD700; }
+nav ul { list-style: none; padding: 0; }
+nav ul li { display: inline; margin: 0 1em; }
+nav ul li a { color: #FF0000; text-decoration: none; font-weight: bold; }
+nav ul li a:hover { color: #FFD700; }
+main { padding: 2em; text-align: center; }
+.raider-card {
+  margin: 1em auto;
   background: #111;
   padding: 1em;
-  text-align: center;
-  border-bottom: 2px solid #FFD700;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-nav ul li {
-  display: inline;
-  margin: 0 1em;
-}
-nav ul li a {
-  color: #FF0000;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav ul li a:hover {
-  color: #FFD700;
-}
-main {
-  padding: 2em;
-  text-align: center;
-}
-.artist-entry {
-  margin: 0.5em 0;
+  border: 1px solid #FF0000;
+  max-width: 600px;
 }
 .tag {
   display: inline-block;
@@ -44,9 +22,4 @@ main {
   font-size: 0.9em;
   border-radius: 3px;
 }
-footer {
-  background: #111;
-  text-align: center;
-  padding: 1em;
-  border-top: 2px solid #FFD700;
-}
+footer { background: #111; text-align: center; padding: 1em; border-top: 2px solid #FFD700; }
