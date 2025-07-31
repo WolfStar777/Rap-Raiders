@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 body {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   margin: 0;
   padding: 0;
   background: #000;
@@ -33,31 +33,15 @@ main {
   padding: 2em;
   text-align: center;
 }
-.hero {
-  background: linear-gradient(to right, #111, #222);
-  padding: 4em 2em;
-  color: #FFD700;
-  border-bottom: 2px solid #FF0000;
+.region-card {
+  margin: 1em auto;
+  background: #111;
+  padding: 1em;
+  border: 1px solid #FF0000;
+  max-width: 600px;
 }
-.hero h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-}
-.hero p {
-  font-size: 1.2em;
-}
-button {
-  background-color: #FF0000;
-  color: #fff;
-  border: none;
-  padding: 0.75em 1.5em;
-  margin-top: 1em;
-  font-size: 1em;
-  cursor: pointer;
-}
-button:hover {
-  background-color: #FFD700;
-  color: #000;
+.artist-entry {
+  margin: 0.5em 0;
 }
 footer {
   background: #111;
