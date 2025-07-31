@@ -6,13 +6,6 @@ nav ul li { display: inline; margin: 0 1em; }
 nav ul li a { color: #FF0000; text-decoration: none; font-weight: bold; }
 nav ul li a:hover { color: #FFD700; }
 main { padding: 2em; text-align: center; }
-.raider-card {
-  margin: 1em auto;
-  background: #111;
-  padding: 1em;
-  border: 1px solid #FF0000;
-  max-width: 600px;
-}
 .tag {
   display: inline-block;
   background: #FFD700;
