@@ -32,12 +32,8 @@ main {
   padding: 2em;
   text-align: center;
 }
-.raider-entry {
-  margin: 1em auto;
-  background: #111;
-  padding: 1em;
-  border: 1px solid #FF0000;
-  max-width: 600px;
+.artist-entry {
+  margin: 0.5em 0;
 }
 .tag {
   display: inline-block;
